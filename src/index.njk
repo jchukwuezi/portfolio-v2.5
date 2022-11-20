@@ -50,7 +50,7 @@ layout: 'base.njk'
             <h2 class="new-blog__title">I also recently started blogging</h2>
             <div class="new-blog__content-grid">
                 <div class="new-blog__img-container">
-                    <img src="" alt="Main Image of most recent blog post" srcset="">
+                    <img src="{{ collections.all[0].data.image }}" alt="Main Image of most recent blog post" srcset="" class="new-blog__img">
                 </div>
                 <div class="new-blog__content">
                     <p class="new-blog__body">  {{ collections.all[0].data.description }} </p>
@@ -60,7 +60,7 @@ layout: 'base.njk'
                             <li>{{tag}}</li>
                         {%- endfor %} 
                     </ul>
-                    <a href="{{ collections.all[0].url }}">Read full post</a>
+                    <a href="{{ collections.all[0].url }}">Read full post <img src="assets/round-arrow-outward.svg" alt="External link" class="new-blog__item-external"> </a>
                 </div>
             </div>
         </div>

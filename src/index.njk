@@ -1,0 +1,92 @@
+---
+title: Joshua - Developer, Designer + Entrepreneur
+layout: 'base.njk'
+---
+
+<main>
+    <section class="hero-section">
+        <div class="container">
+            <h1 class="hero__title">Hey <img src="assets/waving-hand-dark-skin-tone.svg" alt="Waving hand" srcset="" class="hero__icon-wave"> , I'm Josh and I'm a developer and designer building innovative products + services on the web.</h1>
+        </div>
+    </section>
+
+    <section class="work-section">
+        <div class="container">
+            <h2 class="work__title">Currently building a portfolio of products/services: </h2>
+
+            <div class="work__grid">
+                <div class="work__item">
+                    <a href="https://joshchukwuezi.digital/" class="work__external">
+                        <div class="work__heading">
+                            <h3 class="work__item-heading">joshchukwuezi.digital</h3>
+                            <img src="assets/external-link.svg" alt="External link" class="work__item-external">
+                        </div>
+                    </a>
+                    <p class="work__item-body">Freelance design and development business building custom, high performing and accessible sites for a range of clients, from non-profits to creatives. </p>
+                </div>
+
+                <div class="work__item">
+                    <a href="https://feather-approval-3e1.notion.site/Contributely-743a6265ad434b2c8a082c34d55994a8" class="work__external">
+                        <div class="work__heading">
+                            <h3 class="work__item-heading">contributely</h3>
+                            <img src="assets/external-link.svg" alt="External link" class="work__item-external">
+                        </div>
+                    </a>
+                    <p class="work__item-body">Open source web app that finds the top causes/fundraisers from each of the categories from GoFundMe, GlobalGiving and KickStarter.</p>
+                </div>
+
+                <div class="work__item">
+                    <div class="work__heading">
+                        <h3 class="work__item-heading">finsho</h3>
+                    </div>
+                    <p class="work__item-body">Technical co-founder of a shopping and payments app changing the in-store shopping experience for customers and shop owners. Currently developing the web and mobile prototype.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="new-blog-section">
+        <div class="container">
+            <h2 class="new-blog__title">I also recently started blogging</h2>
+            <div class="new-blog__content-grid">
+                <div class="new-blog__img-container">
+                    <img src="" alt="Main Image of most recent blog post" srcset="">
+                </div>
+                <div class="new-blog__content">
+                    <p class="new-blog__body">  {{ collections.all[0].data.description }} </p>
+                    <p class="new-blog__body"> {{ collections.all[0].data.date | postDate }} </p>
+                    <ul class="new-blog__tags">
+                        {%- for tag in collections.all[0].data.tags -%}
+                            <li>{{tag}}</li>
+                        {%- endfor %} 
+                    </ul>
+                    <a href="{{ collections.all[0].url }}">Read full post</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-section">
+        <div class="container">
+            <h2 class="about__title">A bit about me</h2>
+            <div class="about__content-grid">
+                    <img src="assets/venn-digram-frame.png" alt="Venn Diagram of Interests" srcset="">
+                <p class="about__body">I sit in the intersection of code, design and entrepreneurship. From building sites for businesses to improve their online presence to building innovative apps. I’m currently interested in working with startups and digital agencies. <a href="mailto:jchukwuezi@gmail.com"> Don’t hesitate to reach out by email. </a></p>
+            </div>
+        </div>
+    </section>
+
+    <section class="tool-section">
+        <div class="container">
+            <h2 class="tool__title">Some of the tools + technologies that I use to build things:</h2>
+            <ul class="tools__grid">
+                <li class="tool">Figma <img src="assets/tool-icons/figma.svg" alt="Figma Logo" srcset="" class="tool__icon"> </li>
+                <li class="tool">HTML <img src="assets/tool-icons/html-fill.svg" alt="HTML Logo" srcset="" class="tool__icon"> </li>
+                <li class="tool">CSS <img src="assets/tool-icons/css-fill.svg" alt="CSS Logo" srcset="" class="tool__icon"> </li>
+                <li class="tool">JavaScript <img src="assets/tool-icons/language-javascript.svg" alt="JavaScript Logo" srcset="" class="tool__icon"> </li>
+                <li class="tool">React <img src="assets/tool-icons/react.svg" alt="React Logo" srcset="" class="tool__icon"> </li>
+                <li class="tool">NodeJS <img src="assets/tool-icons/nodejs.svg" alt="Node Logo" srcset="" class="tool__icon"> </li>
+            </ul>
+        </div>
+    </section>
+</main>

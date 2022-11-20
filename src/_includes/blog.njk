@@ -1,0 +1,21 @@
+---
+layout: 'base.njk'
+---
+
+{% block css %}
+<link rel="stylesheet" href="/styles/blog-post.css" />
+{% endblock %}
+<article>
+    <div class="container">
+        <h1 class="blog__title"> {{ title }} </h1>
+        <figure class="blog__figure">
+            <img src="{{ image }}" alt="{{ imageAlt }}">
+            <figcaption>
+                {{ imageAlt }}
+            </figcaption>
+        </figure>
+        {{content | safe}}
+
+    <a href="/" class="blog__redirect">Back to hompage</a>    
+    </div>
+</article>

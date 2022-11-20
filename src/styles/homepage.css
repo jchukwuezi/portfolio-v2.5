@@ -1,0 +1,166 @@
+:root{
+    --black: #333333;
+    --white: #EEEEEE;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--black);
+    color: var(--white);
+    font-family: 'Manrope', sans-serif;
+}
+
+.container{
+    width: 85%;
+    max-width: 62rem;
+    margin: 0 auto;
+}
+
+/*HERO STYLES*/
+.hero-section{
+    margin-top: 3rem;
+}
+
+.hero__title{
+    font-size: 3rem;
+}
+
+.hero__icon-wave{
+    height: 3rem;
+    width: 3rem;
+    display: inline-block;
+}
+
+/*WORK STYLES*/
+.work-section{
+    margin-top: 3rem;
+}
+
+.work__title{
+    margin-bottom: 1rem;
+}
+
+.work__grid{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
+}
+
+.work__item{
+    height: 275px;
+    padding: 2rem;
+    border: var(--white) 1.5px solid;
+    display: flex;
+    flex-direction: column;
+}
+
+.work__heading{
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.work__item-external{
+    margin-left: auto;
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+
+.work__item-body{
+    line-height: 1.5;
+}
+
+.work__redirect{
+    margin-top: auto;
+}
+
+.work__external{
+    text-decoration: none;
+}
+
+/*ABOUT STYLES*/
+.about-section, .new-blog-section{
+    margin-top: 3rem;
+}
+
+.about__content-grid, .new-blog__content-grid{
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    margin: 0 auto;
+    gap: 2rem;
+}
+
+.about__title, .new-blog__title{
+    margin-bottom: 1rem;
+}
+
+.about__body, .new-blog__body{
+    font-size: 1.125rem;
+    line-height: 1.5;
+}
+
+/*TOOLS STYLES*/
+.tool-section{
+    margin-top: 3rem;
+}
+
+.tools__grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+}
+
+.tools__grid li{
+    list-style: none;
+}
+
+.tools__grid li:hover{
+    color: var(--black);
+    background-color: var(--white);
+}
+
+
+.tool__title{
+    margin-bottom: 1rem;
+}
+
+.tool{
+    border: var(--white) 1.5px solid;
+    padding: 1.5rem;
+    text-align: center;
+    font-size: 0.875rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tool__icon{
+    margin-left: 10px;
+    display: inline;
+    height: 1.5rem;
+    width: 1.5rem;
+}
+
+
+/*RESPONSIVE STYLES*/
+@media only screen and (max-width: 768px){
+    .hero__title{
+        font-size: 2.25rem;
+    }
+    
+    .tools__grid{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .about__content-grid, .new-blog__content-grid{
+        display: block;
+    }
+
+    .about__body, .new-blog__body{
+        font-size: 1rem;
+        margin-top: 1rem;
+    }
+}

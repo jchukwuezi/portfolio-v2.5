@@ -5,8 +5,8 @@ description: In my first ever blog post I reflect on this summer and my
 author: Josh Chukwuezi
 date: 2022-11-20T22:24:56.381Z
 tags:
-  - Entrepreneurship
-  - Travel
+  - entrepreneurship
+  - travel
 image: /assets/images/unnamed-2-.jpg
 imageAlt: " An aesthetically pleasing picture of a street in Porto, Portugal."
 ---

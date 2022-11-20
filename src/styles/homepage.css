@@ -117,12 +117,12 @@
 
 .new-blog__redirect{
     margin-top: auto;
-    height: 1.5rem;
-    width: 1.5rem;
 }
 
 .new-blog__item-external{
     display: inline;
+    height: 1.5rem;
+    width: 1.5rem;
 }
 
 /*ABOUT STYLES*/

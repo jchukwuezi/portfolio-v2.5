@@ -1,5 +1,5 @@
 ---
-title: Summer 22' Reflections
+title: Summer '22 Reflections
 description: In my first ever blog post I reflect on this summer and my
   experiences at home and abroad.
 author: Josh Chukwuezi

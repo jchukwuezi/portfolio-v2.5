@@ -27,12 +27,6 @@ article{
     font-size: 2rem;
 }
 
-.blog__figure{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .blog__img{
     width: 450px;
     height: 450px;

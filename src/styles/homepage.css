@@ -89,9 +89,16 @@
     object-fit: cover;
 }
 
+.new-blog__tags{
+    display: flex;
+    flex-direction: row;
+}
+
 .new-blog__tags li{
+    list-style: none;
     border: var(--white) 1.5px solid;
-    padding: 1.5rem;
+    font-size: 0.75rem;
+    padding: 0.75rem;
 }
 
 .new-blog__item-external{

@@ -111,6 +111,10 @@
     margin-bottom: 1rem;
 }
 
+.new-blog__desc{
+    line-height: 1.5;
+}
+
 .new-blog__redirect{
     margin-top: auto;
 }

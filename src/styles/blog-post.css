@@ -27,6 +27,18 @@ article{
     font-size: 2rem;
 }
 
+.blog__figure{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog__img{
+    width: 450px;
+    height: 450px;
+    object-fit: cover;
+}
+
 p{
     margin: 1.5rem 0;
     line-height: 1.5;

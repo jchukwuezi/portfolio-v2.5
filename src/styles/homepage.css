@@ -81,6 +81,23 @@
     text-decoration: none;
 }
 
+
+/*NEW BLOG SECTION*/
+.new-blog__img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.new-blog__tags li{
+    border: var(--white) 1.5px solid;
+    padding: 1.5rem;
+}
+
+.new-blog__item-external{
+    display: inline;
+}
+
 /*ABOUT STYLES*/
 .about-section, .new-blog-section{
     margin-top: 3rem;

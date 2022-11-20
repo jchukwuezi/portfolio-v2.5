@@ -117,6 +117,8 @@
 
 .new-blog__redirect{
     margin-top: auto;
+    height: 1.5rem;
+    width: 1.5rem;
 }
 
 .new-blog__item-external{
@@ -126,6 +128,11 @@
 /*ABOUT STYLES*/
 .about-section, .new-blog-section{
     margin-top: 3rem;
+}
+
+.about__img{
+    height: 400px;
+    width: 300px;
 }
 
 .about__content-grid, .new-blog__content-grid{
@@ -193,6 +200,16 @@
         font-size: 2.25rem;
     }
     
+    .new-blog__img{
+        width: 225px;
+        height: 225px;
+    }
+
+    .about__img{
+        height: 300px;
+        width: 225px;
+    }
+
     .tools__grid{
         grid-template-columns: 1fr 1fr;
     }

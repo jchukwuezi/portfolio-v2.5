@@ -104,6 +104,7 @@
 
 .new-blog__content{
     display: flex;
+    flex-direction: column;
 }
 
 .new-blog__redirect{

@@ -14,7 +14,7 @@ I’m not really sure how to begin my first ever blog post. Should I start off w
 
 I think blogging is an interesting form of content because it requires more attention from the consumer as opposed to a video or podcast. It also requires a certain quality from the writer.
 
-I was dragging my feet when it came to writing because I didn't think that I was doing anything interesting enough to write about. However, I'm currently trying to romanticise the little aspects of my life and this blog is an extension of that
+I was dragging my feet when it came to writing because I didn't think that I was doing anything interesting enough to write about. However, I'm currently trying to [romanticise](https://www.nytimes.com/2022/05/11/well/mind/romanticize-your-life-tiktok.html) the little aspects of my life and this blog is an extension of that.
 
 I finished college on a random Wednesday in May 2022. I didn’t know how to feel about it, school was all I had known for the last 18 years and it came to an end in a semi empty exam hall. I guess I was happy that after a long 4 years (and a global pandemic), I was finished. Looking back on it, college has given me a lot of opportunities. I didn’t really come into my own until my 3rd year in college. I had a lecturer/project supervisor that really inspired me to put myself out there and come out of my comfort zone and this has benefited me academically, professionally and in my entrepreneurial endeavours.
 

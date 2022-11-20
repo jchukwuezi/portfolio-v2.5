@@ -48,7 +48,7 @@ layout: 'base.njk'
     <section class="new-blog-section">
         <div class="container">
             <h2 class="new-blog__title">I also recently started blogging</h2>
-            {% set bloglist = collections.all | reverse %}
+            {% set bloglist = collections.post | reverse %}
             <div class="new-blog__content-grid">
                 <div class="new-blog__img-container">
                     <img src="{{ bloglist[0].data.image }}" alt="Main Image of most recent blog post" srcset="" class="new-blog__img">

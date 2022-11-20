@@ -25,6 +25,7 @@ article{
 .blog__title{
     text-align: center;
     font-size: 2rem;
+    margin-bottom: 1rem;
 }
 
 .blog__img{
@@ -39,8 +40,21 @@ article{
     align-items: center;
 }
 
+.blog__img-caption{
+    font-size: 0.85rem;
+    text-align: center;
+}
+
 p{
     margin: 1.5rem 0;
     line-height: 1.5;
+}
+
+/*RESPONSIVE STYLES*/
+@media only screen and (max-width: 768px){
+    .blog__img{
+        height: 75%;
+        width: 75%;
+    }
 }
 

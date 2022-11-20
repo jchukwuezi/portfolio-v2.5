@@ -107,6 +107,10 @@
     flex-direction: column;
 }
 
+.new-blog__desc, .new-blog__date{
+    margin-bottom: 1rem;
+}
+
 .new-blog__redirect{
     margin-top: auto;
 }

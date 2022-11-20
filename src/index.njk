@@ -53,8 +53,8 @@ layout: 'base.njk'
                     <img src="{{ collections.all[0].data.image }}" alt="Main Image of most recent blog post" srcset="" class="new-blog__img">
                 </div>
                 <div class="new-blog__content">
-                    <p class="new-blog__body">  {{ collections.all[0].data.description }} </p>
-                    <p class="new-blog__body"> {{ collections.all[0].data.date | postDate }} </p>
+                    <p class="new-blog__desc">  {{ collections.all[0].data.description }} </p>
+                    <p class="new-blog__date"> {{ collections.all[0].data.date | postDate }} </p>
                     <ul class="new-blog__tags">
                         {%- for tag in collections.all[0].data.tags -%}
                             <li>{{tag}}</li>
